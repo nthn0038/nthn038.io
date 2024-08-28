@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GING SANA PUMAYAG KANA OH</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        canvas {
+            background-color: purple; 
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="heartCanvas" width="600" height="600"></canvas>
+
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="Rihanna-Kiss-It-Better-Instrumental-Prod.-By-Glass-John-Kuk-Harrell-Jeff-Bhasker.mp3" type="audio/mpeg">
+    </audio>
+
+    <py-script src="script.py"></py-script>
+
+</body>
+</html>
