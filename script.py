@@ -35,6 +35,6 @@ async def main():
         w -= 3
         h -= 2
     
-    await draw_text(ctx, canvas.width / 2, canvas.height / 2, "sana makapag phasmo bossing 🙏🙏🙏🙏🙏🙏")
+    await draw_text(ctx, canvas.width / 2, canvas.height / 2, "can i ask for a date miss? 🙏🙏🙏🙏🙏🙏")
 
 asyncio.ensure_future(main())
